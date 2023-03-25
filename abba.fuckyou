@@ -1,0 +1,76 @@
+1 (1) (1 = 1) (1 = 1) 
+2 (2) (2 = 2) (2 = 2)
+3 (3) (3 = 3) (3 = 3)
+4 (4) (4 = 4) (4 = 4)
+5 (5) (5 = 5) (5 = 5)
+6 (6) (6 = 6) (6 = 6)
+
+2 = 3
+4 = 6
+
+2 (2) (2 = 2) (2 = 2) = 3 (3) (3 = 3) (3 = 3) | x2
+4 (4) (4 = 4) (4 = 4) = 6 (6) (6 = 6) (6 = 6)
+
+vertikal_logik(n) = 2*n 
+horizontal_logik(n) = n+(n/2)
+
+                          _
+    [M] = \ab.M
+        _
+        x = x
+      __ _ _
+      MN = a M N
+    ____ _
+    \x.M = b \x.M
+
+[TERM] = \ab.TERM 
+\ab.TERM | b \x.M = \x.M
+\a.ERM
+a \ a.ERM
+a \ a a .ERM
+a \ a a .ERM
+
+\m.m (\x.x) (\x.x)
+b \m.m (\x.x) (\x.x)
+b \m.m (b \x.x) (\x.x)
+b \m.m (b \x.x) (b \x.x)
+b a \ m.m (b \x.x) (b \x.x)
+a \m.m (b \x.x) (b \x.x)
+\m.m(b \x.x) (b \x.x)
+[(b \x.x) (b \x.x)]
+a (b \x.x) (b \x.x)
+\x.x\x.x
+\ab.M
+
+
+\m.m (\x.x) (\x.x)
+[\m.m (\x.x) (\x.x)]
+[\m.m ([\x.x]) ([\x.x])]
+[\m.m (b \x.x) (b \x.x)]
+[\m.mb \x.x b \x.x]
+[\m.mb\x.xb\x.x]
+
+\ab.\m.mb\x.xb\x.x
+
+FUCKYOU
+
+
+[\m.m (b \x.x) (b \x.x)]
+
+
+[\m.m ([b \x.x]) ([b \x.x])]
+
+[\m.m ([a b* \x.x]) ([a b* \x.x])]
+
+[\m.m (a a b* \x.x) (a b* b \x.x)]
+[a \m.m (a a b* \x.x) (a b* b \x.x)]
+[b a \m.m (a a b* \x.x) (a b* b \x.x)]
+[a b a \m.m (a a b* \x.x) (a b* b \x.x)]
+[a b a b a x M (a b a x x) (a b a x x)]£££
+
+
+[\m.m (a a b* \x.x) (a b* b \x.x)]
+[\m.m (a a b* \x.x) (a b* b \x.x)]
+[\m.m (a* b* \x.x) (a* b* \x.x)]
+
+
